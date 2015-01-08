@@ -1,4 +1,5 @@
 # Code to collect and configure tags on Imgur
+# By Reid Jackson
 
 import requests
 import json
