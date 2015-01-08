@@ -1,3 +1,0 @@
-schtasks for imgur_tags
-
-schtasks /create /SC daily /TN imgur_tags /TR "C:\Users\Reid Jackson\GitHub\imgur_tags\run_imgur_tags.cmd" /ST 19:00 /ED 02/01/2015 /Z
