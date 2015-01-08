@@ -1,3 +1,5 @@
+# Code to collect and configure tags on Imgur
+
 import requests
 import json
 import time
