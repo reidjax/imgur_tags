@@ -1,5 +1,6 @@
 # Code to collect and configure tags on Imgur
 # By Reid Jackson
+# Happy St. Patrick's Day
 
 import requests
 import json
@@ -78,7 +79,7 @@ def process_tags(gallery_tags):
 
 def export_tags(processed_tags):
 	name = 'tags_file'
-	date = time.strftime('%m_%d_%Y')
+	date = time.strftime('%m_%d_%Y_%H_%M_%S')
 	full_name = name + "_" + date
 
 	tags_file = open(full_name, 'w')
